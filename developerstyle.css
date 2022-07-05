@@ -1,31 +1,40 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.name{
+
+h2 {
+    font-size: 40px;
+}
+
+.name {
     color: orange;
 }
 
-section{
+.flexible-section {
     display: flex;
     margin-bottom: 120px;
 }
-.half{
+
+.half {
     width: 50%;
     padding-left: 8%;
     margin-top: 2%;
 }
-.half img{
-    width:85%;
+
+.half img {
+    width: 85%;
 }
-.hmbutton{
+
+.hmbutton {
     text-decoration: none;
-    
-    background-image:linear-gradient( rgb(255, 128, 106),rgb(243, 131, 34)) ;
-    
+
+    background-image: linear-gradient(rgb(255, 128, 106), rgb(243, 131, 34));
+
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -33,23 +42,72 @@ section{
     font-weight: 700;
     font-size: 18px;
 }
-.image{
-    margin-top:40px ;
+
+.image {
+    margin-top: 40px;
 }
-.button{
+
+.button {
     margin-top: 19px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+
 }
-.big{
+
+.big {
     padding-top: 35px;
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 350px;
+    padding-bottom: 10px;
+}
+
+.half-last {
+    width: 50%;
+    /* padding-left: 8%;
+    margin-top: 2%; */
+}
+
+.box1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    /* border-left: 9px solid tomato; */
+}
+
+#full {
+    border-left: 9px solid tomato;
+}
+
+#baby {
+    border-left: 9px solid blue;
+}
+
+
+/* .box2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 9px solid rgb(71, 77, 255);
+} */
+
+
+.last-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
